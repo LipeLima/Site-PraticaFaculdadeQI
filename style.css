@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(57, 153, 81, 0.253);
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    margin: 0 10%;    
+    flex-wrap: wrap;     
+}
+
+header{
+    position: relative;
+     
+}
+
+.topo{
+    display: flex;
+    background-color: rgb(95, 129, 118);
+    color: white;
+    width: 100%;
+    box-shadow: 0px 5px #0f020262;
+}
+
+.topo img{
+    width: 7em;
+    height: 5%;
+    margin: 40px 0 0 40px;
+    border-radius: 10px;
+}
+
+.topo h1{
+    margin: 5% auto;
+    font-size: 3em;   
+}
+
+.zero{
+    display: flex;  
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+p{
+    margin: 20px 5px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+#centro-distribuicao{
+    
+    width: 90%;
+    min-width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#centro-distribuicao img{
+    border: 5px double rgb(1, 1, 43);
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+}
+
+figcaption{
+    font-style: italic;
+    
+}
+
+.destaqueTag{
+    color: red;
+}
+
+.destaqueTag:hover{
+    color: rgb(245, 112, 112);
+}
+
+
+
+.one{
+    display: flex;  
+    flex-wrap: wrap;
+    overflow: hidden;   
+}
+
+.topo-secao-one{   
+    display: block;
+    width: 100%;   
+}
+
+h2{
+    display: inline-block;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#familia-pelho{
+    width: 100%;
+    text-align: center;
+}
+
+#familia-pelho img{
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+.two{
+    margin-bottom: 300px;
+}
+
+.two ul{
+    list-style: none;
+    margin: 20px 5px;
+    padding: 20px;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.two ul li{
+    padding: 10px;
+}
+
+footer{
+
+    display: flex;
+    height: 50px;
+    background-color: rgba(165, 162, 162, 0.986);
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+
+    
+}
+
+footer img{  
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 5px 0 90px;
+    
+}
+
+.copy{ 
+    padding-top: 23px;
+    font-size: 15px;
+    margin: 0 90px 0px 0;
+    flex-wrap: nowrap;
+}
+
+
