@@ -1,0 +1,33 @@
+@media (min-width: 375px) and (max-width: 667px) {
+
+    .container{
+      width: 100%;
+      margin: 0;
+    }
+
+    .topo{
+        display: block;
+        padding: 20px 0 20px 0;
+        box-shadow: 0px 10px #0f020262;
+    }
+
+    .topo img{
+        width: 22em;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .topo h1{
+        font-size: 50px;
+        padding-left: 6%;
+        
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+
+
+
+  }
