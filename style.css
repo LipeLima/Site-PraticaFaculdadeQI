@@ -31,15 +31,17 @@ header{
 }
 
 .topo img{
-    width: 7em;
+    width: 15em;
     height: 5%;
-    margin: 40px 0 0 40px;
+    margin: 20px 0 10px 40px;
     border-radius: 10px;
 }
 
 .topo h1{
-    margin: 5% auto;
-    font-size: 3em;   
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    font-size: 450%;
+     
 }
 
 .zero{
@@ -72,8 +74,7 @@ p{
 }
 
 figcaption{
-    font-style: italic;
-    
+    font-style: italic;   
 }
 
 .destaqueTag{
